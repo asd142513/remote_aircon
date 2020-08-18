@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/nano/esp/ESP8266_RTOS_SDK/components/bootloader/subproject",
+    "build_dir":          "/home/nano/esp/aircon/bootloader",
+    "config_file":        "/home/nano/esp/aircon/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v3.2-565-g9f37d69",
+    "phy_data_partition": "",
+    "monitor_baud" : "74880",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/nano/esp/ESP8266_RTOS_SDK/components/esp8266/Kconfig;/home/nano/esp/ESP8266_RTOS_SDK/components/esp_common/Kconfig;/home/nano/esp/ESP8266_RTOS_SDK/components/log/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/nano/esp/ESP8266_RTOS_SDK/components/esptool_py/Kconfig.projbuild;/home/nano/esp/ESP8266_RTOS_SDK/components/partition_table/Kconfig.projbuild;/home/nano/esp/ESP8266_RTOS_SDK/components/bootloader/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "esp8266", "esp_common", "esptool_py", "log", "main", "partition_table", "spi_flash", "" ],
+    "build_component_paths" : [ "/home/nano/esp/ESP8266_RTOS_SDK/components/bootloader", "/home/nano/esp/ESP8266_RTOS_SDK/components/bootloader_support", "/home/nano/esp/ESP8266_RTOS_SDK/components/esp8266", "/home/nano/esp/ESP8266_RTOS_SDK/components/esp_common", "/home/nano/esp/ESP8266_RTOS_SDK/components/esptool_py", "/home/nano/esp/ESP8266_RTOS_SDK/components/log", "/home/nano/esp/ESP8266_RTOS_SDK/components/bootloader/subproject/main", "/home/nano/esp/ESP8266_RTOS_SDK/components/partition_table", "/home/nano/esp/ESP8266_RTOS_SDK/components/spi_flash", "" ]
+}
