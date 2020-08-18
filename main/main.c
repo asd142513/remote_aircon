@@ -13,7 +13,7 @@
 
 void app_main() {
   printf("Hello, World!");
-  transmitSignal();
+  transmitSignal(NULL);
 
   esp_restart();
 }
