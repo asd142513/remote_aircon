@@ -1,8 +1,7 @@
-# Ignore all
-*
+# vscode setting
+.vscode
 
-# Whitelist
-!.gitignore
-!CMakeLists.txt
-!main
-!main/*
+# Project file
+sdkconfig
+sdkconfig.old
+build

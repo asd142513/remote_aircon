@@ -13,7 +13,10 @@
 
 void app_main() {
   printf("Hello, World!");
-  transmitSignal(NULL);
+
+#ifdef __STDC_VERSION__
+  printf("%ld\n", __STDC_VERSION__);
+#endif
 
   esp_restart();
 }
