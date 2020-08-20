@@ -12,12 +12,12 @@
 #include "aircon.h"
 
 void app_main() {
-  printf("Hello, World!\n");
+  printf("Hello, World!\n\n");
   printf("char: %zd\n", sizeof(char));
   printf("short: %zd\n", sizeof(short));
   printf("int: %zd\n", sizeof(int));
   printf("long: %zd\n", sizeof(long));
-  printf("long long: %zd\n", sizeof(long long));
+  printf("long long: %zd\n\n", sizeof(long long));
 
   printf("float: %zd\n", sizeof(float));
   printf("double: %zd\n", sizeof(double));

@@ -1,10 +1,10 @@
 # vscode setting
 .vscode
 
-# Project file
+# Project files
 sdkconfig
 sdkconfig.old
 build
 
-# Dummies
+# Dummy
 dummy
